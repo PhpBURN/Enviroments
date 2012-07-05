@@ -4,10 +4,10 @@ currdate=`date +%F%H%M%S`
 home="/home/ubuntu"
 backup_folder="$home/backups"
 uploads_dir="$home/uploads"
-database="Gnoose"
-dbuser="gnoose"
+database="phpburn"
+dbuser="phpburn"
 
-echo "-- Type application folder name (only not full just folder name ex: www.gnoose.com)"
+echo "-- Type application folder name (only not full just folder name ex: www.phpburn.com)"
 read site_folder
 
 echo "-- Preparing folders and Files"
